@@ -1,0 +1,15 @@
+Write a script that takes as argument a wordlist consisting of one word per line and appends all possible combinations of n digits (n provided as second argument) 
+to every word in the wordlist, and writes the output in a new wordlist which is the third argument. 
+E.g., if the input wordlist contains:
+	john
+	password
+, then for n=4 the output wordlist should contain:
+	john0000
+	john0001
+	...
+	john9999
+	password0000
+	password0001
+	...
+	password9999
+Check arguments and show usage message if wrong arguments.
